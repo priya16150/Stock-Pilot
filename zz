@@ -1,0 +1,7 @@
+py -m venv venv
+venv/bin/activate  (or)  venv\Scripts\activate
+python -m app.main
+pip install -r requirements.txt
+python app/main.py
+C:\Users\hp\AppData\Local\Programs\Python\Python311\python.exe -m venv venv
+mongodb+srv://priyaofficial1516_db_user:IZyVk3PgqBpHQFlO@cluster0.93pphu1.mongodb.net/?appName=Cluster0
