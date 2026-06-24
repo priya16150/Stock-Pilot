@@ -30,7 +30,7 @@ def create_app():
     app.config['JWT_SECRET_KEY'] = os.getenv('JWT_SECRET_KEY', 'jwt-dev-secret')
     
     # Initialize extensions
-    CORS(app, origins=["http://localhost:5173", "http://localhost:3000"])
+    CORS(app, cors_allowed_origins="*")
     jwt = JWTManager(app)
     
     # Initialize database
